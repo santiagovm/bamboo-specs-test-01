@@ -1,0 +1,14 @@
+---
+version: 2
+plan:
+  project-key: TP1
+  key: TPL1
+  name: test-plan-01
+stages:
+  - Build hull:
+      - Build
+
+Build:
+  tasks:
+    - script:
+        - echo 'Hello World!'
